@@ -1,0 +1,34 @@
+/*MOBILE START*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*MOBILE END*/
+
+
+/*TAB START*/
+
+@media screen and (min-width: 768px) {
+
+}
+
+/*TAB END*/
+
+
+/*DESKTOP START*/
+
+@media screen and (min-width: 1024px) {
+
+}
+
+/*DESKTOP END*/
+
+
+/*MEGA SCREENS START*/
+
+@media screen and (min-width: 1400px) {
+
+}
+
+/*MEGA SCREENS END*/
