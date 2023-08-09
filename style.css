@@ -1,9 +1,51 @@
-/*MOBILE START*/
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*MOBILE START*/
+.header-container {
+  height: 50px;
+  background-color: #ff0000e3;
+}
+
+.date {
+  display: none;
+}
+
+.login {
+  display: none;
+}
+
+.newsweek {
+  list-style: none;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: -35px;
+}
+
+.subscribe {
+  list-style: none;
+  padding: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+  padding-left: 6px;
+}
+
+.arrow {
+  width: 20px;
+  height: 15px;
+  margin-bottom: 3px;
+}
+
+.menu-icon-container {
+  list-style: none;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 20px;
+}
 /*MOBILE END*/
 
 
