@@ -16,6 +16,10 @@ body {
   display: none;
 }
 
+.menu {
+  margin-top: 5px;
+}
+
 .newsweek {
   list-style: none;
   font-size: 25px;
@@ -45,6 +49,15 @@ body {
 .menu-icon {
   width: 30px;
   height: 20px;
+}
+
+.user-icon {
+  list-style: none;
+  margin-right: 3px;
+}
+
+.user-interface {
+  margin-right: -16px;
 }
 /*MOBILE END*/
 
