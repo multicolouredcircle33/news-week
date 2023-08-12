@@ -1,67 +1,43 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /*MOBILE START*/
-.header-container {
+.header {
   height: 50px;
   background-color: #ff0000e3;
+  align-items: center
 }
 
 .date {
   display: none;
 }
 
-.login {
+.login-button {
   display: none;
 }
 
-.menu {
-  margin-top: 5px;
-}
-
 .newsweek {
-  list-style: none;
-  font-size: 23px;
-  font-weight: bolder;
-  letter-spacing: 0.5px;
-  margin-left: -35px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
-.subscribe {
-  list-style: none;
-  padding: 2px;
-  font-weight: bold;
-  font-size: 13px;
-  margin-top: 5px;
-  padding-left: 6px;
-  font-family: "Roboto Condensed", sans-serif;
+.fa-user {
+  color: bisque;
 }
 
-.arrow {
-  width: 20px;
-  height: 15px;
-  margin-bottom: 3px;
-  margin-left: -5px;
+.fa-bars {
+  color: bisque;
 }
 
-.menu-icon-container {
-  list-style: none;
-}
-
-.menu-icon {
-  width: 30px;
-  height: 20px;
-}
-
-.user-icon {
-  list-style: none;
-  margin-right: 3px;
-}
-
-.user-interface {
-  margin-right: -16px;
+.subscribe-button {
+  font-weight: bolder;
+  background-color: #ffff00db;
 }
 /*MOBILE END*/
 
@@ -69,30 +45,36 @@ body {
 /*TAB START*/
 
 @media screen and (min-width: 768px) {
+.user-interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsweek {
+  font-size: 27px;
+}
+
+.login-button {
+  display: flex;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  background-color: inherit;
+}
+
 .user-icon {
   display: none;
 }
 
-.user-interface {
-  padding-left: 10px;
+.subscribe-button {
+  margin-right: 5px;
+  padding: auto 10px;
 }
 
-.login {
-  display: flex;
-  margin-right: 1em;
-  margin-top: 3px;
+.fa-bars {
+  font-size: 25px;
 }
-
-.subscribe {
-  margin-right: 16px;
-  font-size: 15px;
-  padding: auto 5px;
-}
-
-.menu-icon-container {
-  margin-right: 8px;
-}
-
 }
 
 /*TAB END*/
@@ -101,7 +83,37 @@ body {
 /*DESKTOP START*/
 
 @media screen and (min-width: 1024px) {
+.header {
+  height: 92px;
+  display: flex;
+  align-items: last baseline;
+}
 
+.newsweek {
+  font-size: 80px;
+  margin-bottom: -10px;
+}
+
+.date {
+  display: flex;
+  color: white;
+  font-family: "Roboto Condensed",sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.login-button {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.subscribe-button {
+  font-size: 20px;
+}
+
+.menu-icon {
+  display: none;
+}
 }
 
 /*DESKTOP END*/
@@ -110,7 +122,7 @@ body {
 /*MEGA SCREENS START*/
 
 @media screen and (min-width: 1400px) {
-
 }
+
 
 /*MEGA SCREENS END*/
