@@ -37,7 +37,14 @@ body {
 
 .subscribe-button {
   font-weight: bolder;
-  background-color: #ffff00db;
+  font-size: 12px;
+  width: 90px;
+  height: 25px;
+}
+
+.user-interface {
+  width: 130px;
+  height: 50px;
 }
 /*MOBILE END*/
 
@@ -47,8 +54,7 @@ body {
 @media screen and (min-width: 768px) {
 .user-interface {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 260px;
 }
 
 .newsweek {
@@ -68,8 +74,9 @@ body {
 }
 
 .subscribe-button {
-  margin-right: 5px;
-  padding: auto 10px;
+  width: 115px;
+  height: 30px;
+  font-size: 1em;
 }
 
 .fa-bars {
@@ -86,29 +93,30 @@ body {
 .header {
   height: 92px;
   display: flex;
-  align-items: last baseline;
+  align-items: center;
+  padding-top: 10px;
 }
 
 .newsweek {
   font-size: 80px;
-  margin-bottom: -10px;
 }
 
 .date {
   display: flex;
-  color: white;
   font-family: "Roboto Condensed",sans-serif;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .login-button {
   margin-right: 25px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .subscribe-button {
-  font-size: 20px;
+  font-size: 22px;
+  width: 140px;
+  height: 35px;
 }
 
 .menu-icon {
